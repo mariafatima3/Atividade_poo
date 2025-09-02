@@ -1,4 +1,4 @@
-# Uma startup de design gráfico precisa de uma ferramenta simples para realizar cálculos rápidos de geometria.
+# 1) Uma startup de design gráfico precisa de uma ferramenta simples para realizar cálculos rápidos de geometria.
 # Eles não precisam guardar nenhuma informação, apenas calcular valores sob demanda. 
 # Tarefa: Crie uma classe chamada CalculadoraGeometrica com os seguintes métodos:
 # • calcular_area_quadrado(lado): recebe o lado de um quadrado e retorna sua área.
