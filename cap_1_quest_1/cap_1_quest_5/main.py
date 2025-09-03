@@ -6,10 +6,10 @@
 
 class GeradorDeLog:
     def info(self, mensagem):
-        print( )
+        print()
 
     def alerta(self, mensagem):
         print()
 
-    def erro(mensagem):
+    def erro(self, mensagem):
         print()
