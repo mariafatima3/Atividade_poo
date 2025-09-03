@@ -6,7 +6,7 @@
 
 class GeradorDeLog:
     def info(self, mensagem):
-        print()
+        print("[INFO] - {mensagem}")
 
     def alerta(self, mensagem):
         print()
