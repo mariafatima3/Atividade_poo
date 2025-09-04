@@ -5,13 +5,13 @@
 
 class ConversorSimples:
     def real_para_dolar(self, valor_real):
-        print(valor_real /5.25)
+        return(valor_real /5.25)
 
     def dolar_para_real(self, valor_dolar):
-        print(valor_dolar * 5.25)
+        return(valor_dolar * 5.25)
 
 Converter = ConversorSimples()
 
-Converter.real_para_dolar (10.35)
+print(Converter.real_para_dolar (10.35))
 
-Converter.dolar_para_real(2.25)
+print(Converter.dolar_para_real(2.25))
