@@ -8,19 +8,19 @@
 import random
 class RoloDeDados:
     def  rolar_d6(self):
-        print(random.randint(1,6))
+        return(random.randint(1,6))
 
     def  rolar_d12(self):
-        print(random.randint(1,12))
+        return(random.randint(1,12))
 
     def  rolar_d20(self):
-        print(random.randint(1, 20))
+        return(random.randint(1, 20))
 
 jogo = RoloDeDados()
 
-jogo.rolar_d6()
+print(jogo.rolar_d6())
 
-jogo.rolar_d12()
+print(jogo.rolar_d12())
 
-jogo.rolar_d20()
+print(jogo.rolar_d20())
     
