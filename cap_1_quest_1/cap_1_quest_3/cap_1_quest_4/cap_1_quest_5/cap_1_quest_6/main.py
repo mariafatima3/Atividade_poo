@@ -7,13 +7,13 @@ class Livro:
      self.autor = autor
      self.ano_publicacao = ano_publicacao
 
-livraria = Livro( "O Pequeno Príncipe","Antoine de Saint-Exupéry", 1943)
-livraria.titulo = " O Pequeno Príncipe "
+livro = Livro( "O Pequeno Príncipe","Antoine de Saint-Exupéry", 1943)
+livro.titulo = " O Pequeno Príncipe "
 
-livraria.autor = " Antoine de Saint-Exupéry "
+livro.autor = " Antoine de Saint-Exupéry "
 
-livraria.ano_publicacao = 1943
+livro.ano_publicacao = 1943
 
-print(livraria.titulo)
-print(livraria.autor)
-print(livraria.ano_publicacao)
+print(livro.titulo)
+print(livro.autor)
+print(livro.ano_publicacao)
