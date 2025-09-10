@@ -7,7 +7,7 @@ class ConfiguracaoJogo:
         self.resolucao_tela = tela
         self.volume_audio = audio
         self.dificuldade = dificuldade
-        
+       
 configuracao = ConfiguracaoJogo( "2560x1440", 55 , "Fácil")
 
 
