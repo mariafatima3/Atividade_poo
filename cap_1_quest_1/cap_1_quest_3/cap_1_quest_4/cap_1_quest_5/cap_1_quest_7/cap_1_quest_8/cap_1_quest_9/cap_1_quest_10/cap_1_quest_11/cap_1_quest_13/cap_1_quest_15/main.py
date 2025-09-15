@@ -18,7 +18,7 @@ class Playlist:
             self.musicas.remove(musica)
             print(f"Música: {musica} removida da playlist {self.nome}")
         else:
-            print(f"Música: {musica} Musica não encontrada na playlist {self.nome}")
+            print(f"Música: {musica} Música não encontrada na playlist {self.nome}")
 
 
     def listar_musicas(self):
